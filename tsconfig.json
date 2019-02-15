@@ -5,9 +5,9 @@
     "experimentalDecorators": true,
     "lib": ["esnext"],
     "moduleResolution": "node",
-    "sourceMap": true,
+    "outDir": "./build",
     "target": "es5"
   },
-  "include": ["./src/**/*"],
+  "include": ["./functions/**/*"],
   "exclude": ["**/*.spec.ts", "node_modules"]
 }
