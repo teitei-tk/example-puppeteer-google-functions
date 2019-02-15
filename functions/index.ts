@@ -1,6 +1,8 @@
 import { Request, Response } from "express";
 
 /**
+ * @link https://cloud.google.com/functions/docs/writing/http
+ *
  * @param req req Cloud Function request context based Express Request Object.
  * @param res res Cloud Function request context based Express Response Object.
  */
