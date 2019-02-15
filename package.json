@@ -9,8 +9,9 @@
     "start": "yarn functions:start",
     "deploy": "yarn functions:deploy",
     "call": "yarn functions:call",
+    "stop": "functions stop",
     "build": "tsc",
-    "functions:start": "yarn functions start",
+    "functions:start": "functions start",
     "functions:deploy": "functions deploy crawl --trigger-http --local-path=functions",
     "functions:call": "functions call crawl"
   },
